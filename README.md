@@ -1,15 +1,61 @@
-# Basic Sample Hardhat Project
+# Mighty Creatures NFT Collection - Etherum/Solidity Contract
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+An awesome NFT collection of Mighty Creatures "randomly" created with a limited minting (configurable) of NFTs.
 
-Try running some of the following tasks:
+## Instructions
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
+### 1. Setup
+
+This project depends on Node 16, so install it using nvm or your favorite tool to handle Node versions.
+
+Nvm install Node 16 (In case you dont have it):
 ```
+nvm install 16
+```
+
+Nvm use Node 16:
+```
+nvm use 16 
+```
+
+Install npm packages and dependencies:
+```
+npm install
+```
+
+Configure your hardhat config file
+```
+hardhat.config.js
+```
+
+### 2. Test
+
+```
+npx hardhat run scripts/run.js
+```
+
+### 3. Deploy
+
+```
+npx hardhat run scripts/deploy.js --network rinkeby
+```
+
+**Save your deployed contract address, it is useful to access your contract in Etherscan or OpenSea**
+
+### 4. Verify
+
+Verify your code with Etherscan (Once deployed)
+
+```
+npx hardhat verify {Your awesome contract address} --network rinkeby
+```
+
+### 5. Have fun 🛸!!
+
+🤓
+
+### 6. WARNING
+
+**Don't commit your hardhat.config.js once you set your api keys, those are private for you only**
+
+### Thanks to [Buildspace 🦄](https://buildspace.so/) for their amazing courses!!
