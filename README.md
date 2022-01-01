@@ -23,7 +23,12 @@ Install npm packages and dependencies:
 npm install
 ```
 
-Configure your hardhat config file
+Rename the dummy hardhat config file
+```
+mv hardhat.config.dummy.js hardhat.config.js
+```
+
+Configure your hardhat config file, with the appropiate keys and api urls
 ```
 hardhat.config.js
 ```
