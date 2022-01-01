@@ -2,6 +2,13 @@
 
 An awesome NFT collection of Mighty Creatures "randomly" created with a limited minting (configurable) of NFTs.
 
+## Play 👽
+
+A working web3 app interacting with this contract can be found on: https://nft-starter-project.wichon.repl.co/
+
+And the code the for it can be found in: [mighty-creatures-nft-collection-web-app](https://github.com/wichon/mighty-creatures-nft-collection-web-app) (Developed in [Replit](https://replit.com/))
+
+
 ## Instructions
 
 ### 1. Setup
